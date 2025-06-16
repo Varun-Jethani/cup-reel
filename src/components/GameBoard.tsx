@@ -162,7 +162,7 @@ const GameBoard: React.FC<GameBoardProps> = ({
       {showTargetOrder && (
         <div className="mt-8 animate-fade-in">
           <h2 className="text-lg font-bold mb-2">Target Order:</h2>
-          <div className="flex justify-center gap-2 py-5 px-1 bg-gray-100 rounded-lg">
+          <div className="flex justify-center gap-2 py-5 px-1 rounded-lg">
             {targetCups.map((cup, index) => (
               <div key={cup.id}>
                 <Cup 
